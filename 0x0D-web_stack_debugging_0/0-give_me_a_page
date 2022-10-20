@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Starts apache server
-
-/etc/init.d/apache2 start
+# Debug the issue with the web server
+sudo service apache2 start
